@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ExpenseTracker
-//
-//  Created by Macbook Pro on 30/06/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -22,3 +15,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+

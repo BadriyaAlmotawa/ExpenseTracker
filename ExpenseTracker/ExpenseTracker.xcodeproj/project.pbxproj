@@ -14,6 +14,7 @@
 		526AA3B82FF3C17B00C0ABCF /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AA3B72FF3C17B00C0ABCF /* ExpenseTrackerTests.swift */; };
 		526AA3C22FF3C17B00C0ABCF /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AA3C12FF3C17B00C0ABCF /* ExpenseTrackerUITests.swift */; };
 		526AA3C42FF3C17B00C0ABCF /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AA3C32FF3C17B00C0ABCF /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		526AA3D12FF3C37C00C0ABCF /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AA3D02FF3C37C00C0ABCF /* ExpenseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		526AA3BD2FF3C17B00C0ABCF /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526AA3C12FF3C17B00C0ABCF /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		526AA3C32FF3C17B00C0ABCF /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		526AA3D02FF3C37C00C0ABCF /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		526AA39A2FF3C17700C0ABCF = {
 			isa = PBXGroup;
 			children = (
+				526AA3D02FF3C37C00C0ABCF /* ExpenseModel.swift */,
 				526AA3A52FF3C17700C0ABCF /* ExpenseTracker */,
 				526AA3B62FF3C17B00C0ABCF /* ExpenseTrackerTests */,
 				526AA3C02FF3C17B00C0ABCF /* ExpenseTrackerUITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526AA3D12FF3C37C00C0ABCF /* ExpenseModel.swift in Sources */,
 				526AA3A92FF3C17700C0ABCF /* ContentView.swift in Sources */,
 				526AA3A72FF3C17700C0ABCF /* ExpenseTrackerApp.swift in Sources */,
 			);

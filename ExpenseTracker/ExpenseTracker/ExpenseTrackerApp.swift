@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ExpenseTrackerApp: App {
@@ -13,5 +14,8 @@ struct ExpenseTrackerApp: App {
         WindowGroup {
             ContentView()
         }
+        // تفعيل قاعدة البيانات للتطبيق بالكامل
+        .modelContainer(for: ExpenseItem.self)
     }
 }
+
